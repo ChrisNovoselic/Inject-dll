@@ -10,7 +10,7 @@ public:
 	Hook() = default;
 	~Hook() = default;
 
-	static BOOL Run(_In_ CONST std::string& , _In_ CONST std::string& , _In_ LPVOID , _Out_ LPVOID* );
+	static BOOL Run(_In_ CONST std::string & , _In_ CONST std::string & , _In_ LPVOID , _Out_ LPVOID* );
 private:
 
 };
